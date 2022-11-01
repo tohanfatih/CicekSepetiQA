@@ -1,0 +1,233 @@
+{
+	"info": {
+		"_postman_id": "11826626-6e9a-4b52-b536-c207225b732c",
+		"name": "Ciceksepeti API Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/test/installment=1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://2c9889a3-719f-4417-ba0a-2938d8eab343.mock.pstmn.io/test/installment=1",
+					"protocol": "https",
+					"host": [
+						"2c9889a3-719f-4417-ba0a-2938d8eab343",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"test",
+						"installment=1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "/test/installment=1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}//test/installment=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"test",
+								"installment=1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"data\": {\n            \"categoryName\": null,\n            \"products\": [\n                {\n                    \"code\": \"at773\",\n                    \"name\": \"2 Dal Beyaz Orkide Çiçeği\",\n                    \"price\": {\n                        \"current\": 79.99,\n                        \"total\": 79.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 13,33 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at773-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at1742\",\n                    \"name\": \"Büyülü Aşk 25 Kırmızı Güller\",\n                    \"price\": {\n                        \"current\": 69.99,\n                        \"total\": 69.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 11,66 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at1742-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at727\",\n                    \"name\": \"Akvaryum Vazoda 7 Kırmızı Gül\",\n                    \"price\": {\n                        \"current\": 39.99,\n                        \"total\": 39.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 6,66 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at727-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at192\",\n                    \"name\": \"Phalaenopsis Orkide Çiçeği\",\n                    \"price\": {\n                        \"current\": 69.99,\n                        \"total\": 69.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 11,66 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at192-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at2360\",\n                    \"name\": \"Asaletli Mor 2 Dal Orkide\",\n                    \"price\": {\n                        \"current\": 99.99,\n                        \"total\": 99.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 16,66 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at2360-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at3484\",\n                    \"name\": \"4 Dal Beyaz Phalaenopsis Orkide\",\n                    \"price\": {\n                        \"current\": 139,\n                        \"total\": 139,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 23,16 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at3484-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at3917\",\n                    \"name\": \"Kişiye Özel Lisyantus Aranjmanı\",\n                    \"price\": {\n                        \"current\": 69.99,\n                        \"total\": 69.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 11,66 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at3917-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                }\n            ],\n            \"filter\": null,\n            \"banners\": null,\n            \"branch\": null,\n            \"message\": null,\n            \"productCount\": 310745,\n            \"title\": null,\n            \"isAlternate\": false,\n            \"storeId\": null\n        }\n    },\n    \"error\": {\n        \"type\": 0,\n        \"title\": null,\n        \"message\": null,\n        \"returnUrl\": null\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "/test/installment=0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://2c9889a3-719f-4417-ba0a-2938d8eab343.mock.pstmn.io/test/installment=0",
+					"protocol": "https",
+					"host": [
+						"2c9889a3-719f-4417-ba0a-2938d8eab343",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"test",
+						"installment=0"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}//test/installment=0",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"test",
+								"installment=0"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "/test/installment=0",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}//test/installment=0",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"",
+								"test",
+								"installment=0"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"data\": {\n            \"categoryName\": null,\n            \"products\": [\n                {\n                    \"code\": \"gr1700\",\n                    \"name\": \"Bir Tatlı Sevda Kek Buketi\",\n                    \"price\": {\n                        \"current\": 49.99,\n                        \"total\": 49.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": false,\n                    \"installmentText\": \"\",\n                    \"productGroupId\": 2,\n                    \"variantCode\": \"gr1700-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"kc287076\",\n                    \"name\": \"Nice Mutlu Yıllar Çikolata Topları Truf Buketi\",\n                    \"price\": {\n                        \"current\": 49.99,\n                        \"total\": 49.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": false,\n                    \"installmentText\": \"\",\n                    \"productGroupId\": 2,\n                    \"variantCode\": \"kc287076-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"at3917\",\n                    \"name\": \"Kişiye Özel Lisyantus Aranjmanı\",\n                    \"price\": {\n                        \"current\": 69.99,\n                        \"total\": 69.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": true,\n                    \"installmentText\": \"6 x 11,66 TL Taksit Seçeneği\",\n                    \"productGroupId\": 1,\n                    \"variantCode\": \"at3917-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"gr1855\",\n                    \"name\": \"Doğum Günü Mesajlı Çilek Bahçesi Kek Buketi\",\n                    \"price\": {\n                        \"current\": 49.99,\n                        \"total\": 49.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": false,\n                    \"installmentText\": \"\",\n                    \"productGroupId\": 2,\n                    \"variantCode\": \"gr1855-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"gr1572\",\n                    \"name\": \"Mini Tatlı Lezzet Truf ve Kek Buketi\",\n                    \"price\": {\n                        \"current\": 49.99,\n                        \"total\": 49.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": false,\n                    \"installmentText\": \"\",\n                    \"productGroupId\": 2,\n                    \"variantCode\": \"gr1572-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                },\n                {\n                    \"code\": \"gr1972\",\n                    \"name\": \"Bitmeyen Lezzet Doğum Günü Kutlama Aranjmanı\",\n                    \"price\": {\n                        \"current\": 54.99,\n                        \"total\": 54.99,\n                        \"currency\": \"TL\",\n                        \"currencyCode\": \"TRY\"\n                    },\n                    \"installment\": false,\n                    \"installmentText\": \"\",\n                    \"productGroupId\": 2,\n                    \"variantCode\": \"gr1972-1\",\n                    \"deliveryChargeMessage\": \"Ücretsiz Teslimat\"\n                }\n            ],\n            \"filter\": null,\n            \"banners\": null,\n            \"branch\": null,\n            \"message\": null,\n            \"productCount\": 310745,\n            \"title\": null,\n            \"isAlternate\": false,\n            \"storeId\": null\n        }\n    },\n    \"error\": {\n        \"type\": 0,\n        \"title\": null,\n        \"message\": null,\n        \"returnUrl\": null\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "/test/?installment=",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://2c9889a3-719f-4417-ba0a-2938d8eab343.mock.pstmn.io/test/?installment=",
+					"protocol": "https",
+					"host": [
+						"2c9889a3-719f-4417-ba0a-2938d8eab343",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"test",
+						""
+					],
+					"query": [
+						{
+							"key": "installment",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "/test/?installment=",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/test/?installment=",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"test",
+								""
+							],
+							"query": [
+								{
+									"key": "installment",
+									"value": ""
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/test/?installment=",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"test",
+								""
+							],
+							"query": [
+								{
+									"key": "installment",
+									"value": ""
+								}
+							]
+						}
+					},
+					"code": 500,
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	]
+}
